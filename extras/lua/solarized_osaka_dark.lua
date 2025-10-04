@@ -8,7 +8,7 @@ local colors = {
   base1 = "#adb7b7",
   base2 = "#ede7d3",
   base3 = "#fdf5e2",
-  base4 = "#ffffff",
+  base4 = "#000000",
   bg = "#001419",
   bg_float = "#001419",
   bg_highlight = "#002c38",
@@ -72,7 +72,7 @@ local colors = {
   yellow300 = "#ffbf00",
   yellow500 = "#b28500",
   yellow700 = "#664c00",
-  yellow900 = "#332700"
+  yellow900 = "#332700",
 }
 
 local highlights = nil
