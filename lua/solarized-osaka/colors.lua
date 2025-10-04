@@ -59,6 +59,7 @@ M.default = {
   cyan = hsl(175, 59, 40),
   cyan100 = hsl(176, 100, 86),
   cyan300 = hsl(175, 85, 55),
+  cyan400 = hsl(168, 76, 36),
   cyan500 = hsl(175, 59, 40),
   cyan700 = hsl(182, 59, 25),
   cyan900 = hsl(183, 58, 15),
