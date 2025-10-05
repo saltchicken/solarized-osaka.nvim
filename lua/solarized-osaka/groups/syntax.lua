@@ -4,7 +4,7 @@ function M.get(c, opts)
   -- stylua: ignore
   return {
     Comment                  = { fg = c.base01, style = opts.styles.comments }, -- any comment
-    Constant                 = { fg = c.base0 }, -- (preferred) any constant
+    Constant                 = { fg = c.cyan400 }, -- (preferred) any constant
     String                   = { fg = c.cyan700 }, --   a string constant: "this is a string"
     Character                = "Constant", --  a character constant: 'c', '\n'
     -- Number        = { }, --   a number constant: 234, 0xff
