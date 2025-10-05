@@ -4,7 +4,7 @@ function M.get(c, opts)
   -- stylua: ignore
   return {
     TSNodeKey       = { fg = c.magenta500, bold = true },
-    TSNodeUnmatched = { fg = c.base01 },
+    TSNodeUnmatched = { fg = c.green },
   }
 end
 
