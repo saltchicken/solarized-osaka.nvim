@@ -10,8 +10,7 @@ function M.get(c, opts)
     -- Number        = { }, --   a number constant: 234, 0xff
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
-    Variable                 = { fg = c.green }, -- (preferred) any variable name
-
+    ['@variable'] = "Identifier", -- Link to the 'Identifier' group
     Identifier               = { fg = c.blue500, style = opts.styles.variables }, -- (preferred) any variable name
     Function                 = { fg = c.blue500, style = opts.styles.functions }, -- function name (also: methods for classes)
 
