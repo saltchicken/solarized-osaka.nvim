@@ -4,13 +4,13 @@ function M.get(c, opts)
   -- stylua: ignore
   return {
     Comment                  = { fg = c.base01, style = opts.styles.comments }, -- any comment
-    Constant                 = { fg = c.cyan400 }, -- (preferred) any constant
+    Constant                 = { fg = c.cyan700 }, -- (preferred) any constant
     String                   = { fg = c.base0 }, --   a string constant: "this is a string"
     Character                = "Constant", --  a character constant: 'c', '\n'
     -- Number        = { }, --   a number constant: 234, 0xff
     -- Boolean       = { }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
-    ['@variable']            = { fg = c.cyan700, style = opts.styles.variables },
+    ['@variable']            = { fg = c.cyan400, style = opts.styles.variables },
     Identifier               = { fg = c.blue500, style = opts.styles.variables }, -- (preferred) any variable name
     Function                 = { fg = c.blue500, style = opts.styles.functions }, -- function name (also: methods for classes)
 
