@@ -66,6 +66,7 @@ M.default = {
   green = hsl(68, 100, 30),
   green100 = hsl(90, 100, 84),
   green300 = hsl(76, 100, 49),
+  green400 = hsl(150, 94, 13),
   green500 = hsl(68, 100, 30),
   green700 = hsl(68, 100, 20),
   green900 = hsl(68, 100, 10),
