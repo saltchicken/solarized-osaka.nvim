@@ -5,7 +5,7 @@ function M.get(c, opts)
   return {
     Comment                  = { fg = c.base01, style = opts.styles.comments }, -- any comment
     Constant                 = { fg = c.cyan700 }, -- (preferred) any constant
-    String                   = { fg = c.green400, bold = true }, --   a string constant: "this is a string"
+    String                   = { fg = c.base01, bold = true }, --   a string constant: "this is a string"
     Character                = "Constant", --  a character constant: 'c', '\n'
     -- Number        = { }, --   a number constant: 234, 0xff
     -- Boolean       = { }, --  a boolean constant: TRUE, false
